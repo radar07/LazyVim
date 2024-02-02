@@ -1,0 +1,17 @@
+return {
+  { "folke/persistence.nvim", enabled = false },
+  { "folke/neodev.nvim", enabled = false },
+  { "folke/neoconf.nvim", enabled = false },
+  { "folke/noice.nvim", enabled = false },
+  { "echasnovski/mini.ai", enabled = false },
+  { "echasnovski/mini.bufremove", enabled = false },
+  { "echasnovski/mini.comment", enabled = false },
+  { "echasnovski/mini.indentscope", enabled = false },
+  { "echasnovski/mini.pairs", enabled = false },
+  { "MunifTanjim/nui.nvim", enabled = false },
+  { "goolord/alpha-nvim", enabled = false },
+  { "nvimdev/dashboard-nvim", enabled = false },
+  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  { "rcarriga/nvim-notify", enabled = false },
+  { "stevearc/dressing.nvim", enabled = false },
+}
