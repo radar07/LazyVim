@@ -18,9 +18,7 @@ return {
         ignore_list = {},
       },
       git = {
-        enable = true,
-        ignore = true,
-        timeout = 500,
+        enable = false,
       },
       renderer = {
         highlight_git = true,
@@ -35,15 +33,6 @@ return {
           glyphs = {
             default = "",
             symlink = "",
-            git = {
-              unstaged = "",
-              staged = "S",
-              unmerged = "",
-              renamed = "➜",
-              deleted = "",
-              untracked = "U",
-              ignored = "◌",
-            },
             folder = {
               default = "",
               open = "",
