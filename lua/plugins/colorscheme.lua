@@ -1,4 +1,11 @@
 return {
-  "folke/tokyonight.nvim",
-  opts = { style = "night" },
+  { "catppuccin/nvim" },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
+    },
+  },
 }
