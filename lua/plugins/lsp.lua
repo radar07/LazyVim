@@ -6,9 +6,6 @@ return {
         "stylua",
         "prettier",
         "eslint_d",
-        "isort",
-        "black",
-        "pylint",
         "typescript-language-server",
         "tailwindcss-language-server",
       })
@@ -46,19 +43,19 @@ return {
             },
           },
         },
-        gopls = {
-          cmd = { "gopls" },
-          settings = {
-            gopls = {
-              experimentalPostfixCompletions = true,
-              analyses = {
-                unusedparams = true,
-                shadow = true,
-              },
-              staticcheck = true,
-            },
-          },
-        },
+        -- gopls = {
+        --   cmd = { "gopls" },
+        --   settings = {
+        --     gopls = {
+        --       experimentalPostfixCompletions = true,
+        --       analyses = {
+        --         unusedparams = true,
+        --         shadow = true,
+        --       },
+        --       staticcheck = true,
+        --     },
+        --   },
+        -- },
       },
     },
   },
